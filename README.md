@@ -52,9 +52,6 @@ Example:
 --------
 VISHNU X = 5;
 
-Manual Assignments using expressions are also supported:
-X = 3 + 4 * 2;
-
 Features Summary:
 -----------------
 ✔ Detects and evaluates valid expressions  
