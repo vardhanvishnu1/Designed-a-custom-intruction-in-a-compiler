@@ -15,10 +15,6 @@ It supports:
 
 . ├── lexer.l # Lexical analyzer (Flex) ├── parser.y # Syntax and semantic rules (Bison) ├── main.cpp # Entry point of the compiler ├── makefile # Build automation script └── README.md # Project documentation
 
-yaml
-Copy
-Edit
-
 ---
 
 ##  Requirements
@@ -41,17 +37,11 @@ make clean
 make
 This will generate an executable called mycompiler.
 
- Usage
-Once built, run the compiler:
-
 bash
 Copy
 Edit
 ./mycompiler
 2. Factorial (VISHNU)
-java
-Copy
-Edit
 VISHNU X = 5;
 3. Manual Assignment Using Expression
 ini
