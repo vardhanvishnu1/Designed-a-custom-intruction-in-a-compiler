@@ -4,7 +4,6 @@
 
 %%
 [ \t\n]+                ;
-SI                      return SI;
 VISHNU                  return VISHNU;
 [0-9]+                 { yylval.str = strdup(yytext); return NUM; }
 [A-Za-z_][A-Za-z0-9_]* { yylval.str = strdup(yytext); return ID; }
